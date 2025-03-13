@@ -1,0 +1,122 @@
+{
+  "policy_number": "123456789",
+  "policy_date": "01.10.2023",
+  "insurer": {
+    "name": "Совкомбанк страхование",
+    "address": "125284, г. Москва, пр. Ленинградский, д. 35, стр. 1",
+    "ogrn": "1027810229150",
+    "inn": "7812016906",
+    "kpp": "771401001",
+    "bank_account": "40701810412010170604",
+    "bank_name": "Филиал «Корпоративный» ПАО «Совкомбанк» в г. Москве",
+    "bic": "044525360",
+    "correspondent_account": "30101810445250000360",
+    "phone": "8-800-100-2-100",
+    "fax": "(812) 449-47-59"
+  },
+  "insured": {
+    "full_name": "Иванов Иван Иванович",
+    "citizenship": "Российская Федерация",
+    "passport": {
+      "series": "1234",
+      "number": "567890",
+      "issued_by": "УФМС России по г. Москве",
+      "issue_date": "01.01.2010",
+      "department_code": "770-001"
+    },
+    "birth_date": "01.01.1980",
+    "birth_place": "г. Москва",
+    "registration_address": "Россия, г. Москва, ул. Ленина, д. 1, кв. 1",
+    "residence_address": "Россия, г. Москва, ул. Ленина, д. 1, кв. 1",
+    "phone": "+7 999 123 45 67",
+    "email": "ivanov@example.com"
+  },
+  "creditor": {
+    "name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО «БАНК «САНКТ-ПЕТЕРБУРГ»",
+    "inn": "7831000027",
+    "correspondent_account": "30101810900000000790",
+    "bic": "044030790",
+    "address": "195112, Санкт-Петербург, Малоохтинский пр., д.64, лит. А"
+  },
+  "credit_contract": {
+    "number": "987654321",
+    "date": "01.09.2023"
+  },
+  "insurance_objects": [
+    {
+      "type": "Квартира",
+      "address": "Россия, г. Москва, ул. Ленина, д. 1, кв. 1",
+      "total_area": "50",
+      "rooms": "2",
+      "floor": "5"
+    }
+  ],
+  "insured_persons": [
+    {
+      "full_name": "Иванов Иван Иванович",
+      "citizenship": "Российская Федерация",
+      "passport": {
+        "series": "1234",
+        "number": "567890",
+        "issued_by": "УФМС России по г. Москве",
+        "issue_date": "01.01.2010",
+        "department_code": "770-001"
+      },
+      "birth_date": "01.01.1980",
+      "birth_place": "г. Москва",
+      "registration_address": "Россия, г. Москва, ул. Ленина, д. 1, кв. 1",
+      "residence_address": "Россия, г. Москва, ул. Ленина, д. 1, кв. 1",
+      "phone": "+7 999 123 45 67",
+      "email": "ivanov@example.com"
+    }
+  ],
+  "insurance_sum": {
+    "total": "1000000",
+    "property_1_percentage": "70",
+    "property_2_percentage": "30",
+    "insured_person_1_percentage": "70",
+    "insured_person_2_percentage": "30"
+  },
+  "insurance_premium": {
+    "payment_schedule": "Приложение №1"
+  },
+  "insurance_period": {
+    "start_date": "01.10.2023",
+    "end_date": "01.10.2028",
+    "title_insurance_end_date": "01.10.2028"
+  },
+  "special_conditions": {
+    "email_delivery": true,
+    "dispute_resolution": "Положения Полиса имеют преимущественную силу",
+    "insurance_payment": {
+      "property": {
+        "total_loss": "100% страховой суммы",
+        "partial_loss": "Стоимость ремонта"
+      },
+      "title": {
+        "full_loss": "100% страховой суммы",
+        "partial_loss": "Пропорциональная доля страховой суммы"
+      }
+    },
+    "exclusions": [
+      "Лица моложе 18 лет",
+      "Лица старше 65 лет",
+      "Инвалиды I, II, III группы",
+      "Лица с социально значимыми заболеваниями"
+    ]
+  },
+  "attachments": [
+    {
+      "name": "График уплаты страховой премии",
+      "link": "Приложение №1"
+    },
+    {
+      "name": "Правила комплексного ипотечного страхования",
+      "link": "https://sovcomins.ru/upload/pravila/kis_12.24.pdf"
+    },
+    {
+      "name": "Ключевой информационный документ",
+      "link": "Приложение №3"
+    }
+  ]
+}
